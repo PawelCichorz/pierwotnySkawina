@@ -43,7 +43,7 @@ const Navbar = () => {
           <li onClick={toggleOffers} className="relative">
             <ScrollLink   to="offers"
               smooth={true}
-              offset={-100}
+              offset={-65}
               duration={1200} className="hover:text-amber-600 cursor-pointer">Oferta</ScrollLink>
 
           </li>

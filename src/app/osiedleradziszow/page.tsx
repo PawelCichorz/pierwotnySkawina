@@ -234,8 +234,8 @@ Inwestycja składa się z 5 nowoczesnych i energooszczędnych domów jednorodzin
 
   {/* Sekcja: Do pobrania */}
 <div className="mt-12 px-4 w-full flex flex-col items-center">
-  <h3 className="text-2xl font-semibold mb-4 text-amber-800">Do pobrania</h3>
-  <div className="flex flex-wrap   max-w-4xl">
+  <h3 className="text-2xl font-semibold mb-4 text-amber-800 ">Do pobrania</h3>
+  <div className="w-full flex items-center p-2 justify-center flex-wrap">
     {[
       { name: 'Rzut1', file: 'rzut1.png' },
    { name: 'Rzut2', file: 'rzut2.png' },
@@ -247,7 +247,7 @@ Inwestycja składa się z 5 nowoczesnych i energooszczędnych domów jednorodzin
         href={`/pdfs/radziszow/${file}`}
         target="_blank"
         rel="noopener noreferrer"
-        className="text-center border m-4 border-amber-700 rounded-lg p-4 hover:bg-amber-50 transition-colors duration-300 shadow-md"
+        className="text-center border m-4 border-amber-700 rounded-lg p-4 hover:bg-amber-50 transition-colors duration-300 shadow-md w-[300px]"
       >
         📄 {name}
       </a>

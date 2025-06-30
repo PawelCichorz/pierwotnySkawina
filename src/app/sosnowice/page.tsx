@@ -159,7 +159,7 @@ height="450"
 
 <div className="mt-12 px-4 w-full flex flex-col items-center">
   <h3 className="text-2xl font-semibold mb-4 text-amber-800">Do pobrania</h3>
-  <div className="flex flex-wrap   ">
+  <div className="w-full flex items-center p-2 justify-center flex-wrap ">
     {[
       { name: 'stanard', file: 'standard.docx' },
    { name: 'rzut_parter', file: 'rzut_parter.pdf' },
@@ -172,7 +172,7 @@ height="450"
         href={`/pdfs/wola/${file}`}
         target="_blank"
         rel="noopener noreferrer"
-        className="text-center border m-4 border-amber-700 rounded-lg p-4 hover:bg-amber-50 transition-colors duration-300 shadow-md w-[200px]"
+        className="text-center border m-4 border-amber-700 rounded-lg p-4 hover:bg-amber-50 transition-colors duration-300 shadow-md w-[230px]"
       >
         📄 {name}
       </a>

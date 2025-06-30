@@ -71,7 +71,7 @@ const WojskaPolskiego = () => {
               initial="hidden"
               animate="visible"
               variants={dropInVariants}
-              className="border border-amber-700 rounded-lg w-[300px]"
+              className="border border-amber-700 rounded-lg w-[315px]"
             >
               {event}
             </motion.div>

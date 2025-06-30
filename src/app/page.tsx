@@ -5,6 +5,7 @@ import logo from '../../assets/Nieruchomości Pawłowski (4).png'
 import Offers from './Components/Offers';
 import Contact from './Components/Contact';
 import Sell from './Components/Sell';
+import SocialIcons from './Components/SocialIcons';
 
 export default function Home() {
   return (
@@ -28,7 +29,7 @@ export default function Home() {
         />
       </div>
       <Navbar />
-      
+      <SocialIcons/>
       
     </div>
     <Offers/>

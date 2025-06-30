@@ -211,7 +211,7 @@ const WojskaPolskiego = () => {
      {/* Sekcja: Do pobrania */}
 <div className="mt-12 px-4 w-full flex flex-col items-center">
   <h3 className="text-2xl font-semibold mb-4 text-amber-800">Do pobrania</h3>
-  <div className="flex flex-wrap   ">
+  <div className="flex flex-wrap justify-center items-center w-full ">
     {[
       { name: 'Rzuty', file: 'rzuty.pdf' },
    
@@ -222,7 +222,7 @@ const WojskaPolskiego = () => {
         href={`/pdfs/apartamentywoj/${file}`}
         target="_blank"
         rel="noopener noreferrer"
-        className="text-center border m-4 border-amber-700 rounded-lg p-4 hover:bg-amber-50 transition-colors duration-300 shadow-md w-[200px]"
+        className="text-center border m-4 border-amber-700 rounded-lg p-4 hover:bg-amber-50 transition-colors duration-300 shadow-md w-[300px]"
       >
         📄 {name}
       </a>

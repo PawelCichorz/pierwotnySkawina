@@ -163,8 +163,8 @@ src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d731.6055806251518!2d1
       </Link>
 
 <div className="mt-12 px-4 w-full flex flex-col items-center">
-  <h3 className="text-2xl font-semibold mb-4 text-amber-800">Do pobrania</h3>
-  <div className="flex flex-wrap   max-w-4xl">
+  <h3 className="text-2xl font-semibold mb-4 text-amber-800 text-center">Do pobrania</h3>
+  <div className="flex flex-wrap justify-center items-center w-full">
     {[
       { name: 'parterowy rzut', file: 'parterowy.pdf' },
    { name: 'maly_parter rzut', file: 'maly_parter.pdf' },
@@ -177,7 +177,7 @@ src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d731.6055806251518!2d1
         href={`/pdfs/wola/${file}`}
         target="_blank"
         rel="noopener noreferrer"
-        className="text-center border m-4 border-amber-700 rounded-lg p-4 hover:bg-amber-50 transition-colors duration-300 shadow-md"
+        className="text-center border m-4 border-amber-700 rounded-lg p-4 hover:bg-amber-50 transition-colors duration-300 shadow-md w-[300px]"
       >
         📄 {name}
       </a>
