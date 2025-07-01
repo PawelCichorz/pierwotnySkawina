@@ -20,18 +20,26 @@ const Sell = () => {
       </motion.h2>
 
       <motion.div
+        className="flex gap-6"
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1.0, duration: 0.6 }}
       >
-         <Link
-      href="https://m.me/100054462819881" 
-      target="_blank"
-      rel="noopener noreferrer"
-      className="px-6 py-2 text-red-600 text-2xl font-medium border border-red-600 rounded animate-pulse hover:animate-none transition-all duration-300"
-    >
-      Skontaktuj się z nami
-    </Link>
+        <Link
+          href="https://m.me/100054462819881"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-6 py-2 text-red-600 text-2xl font-medium border border-red-600 rounded animate-pulse hover:animate-none transition-all duration-300"
+        >
+          Messenger
+        </Link>
+
+        <a
+          href="tel:519053331"
+          className="px-6 py-2 text-blue-600 text-2xl font-medium border border-blue-600 rounded hover:bg-blue-100 transition-all duration-300"
+        >
+          519 053 331
+        </a>
       </motion.div>
     </motion.div>
   );
