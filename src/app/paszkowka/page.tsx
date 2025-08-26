@@ -23,7 +23,7 @@ const dropInVariants = {
   }),
 };
 
-const Wola = () => {
+const Paszkowka = () => {
   const [showText, setShowText] = useState(false);
 
   useEffect(() => {
@@ -32,15 +32,14 @@ const Wola = () => {
   }, []);
 
   const events = [
-    '2 projekty do wyboru 85,90m2 lub 126,80 m2',
-    'Ceny to 780 000zł brutto i 1 190 000 zł brutto',
-    'Możliwość wykończenia pod klucz',
+    'Powierzchnia 101,52 m2',
+    'Cena 849 000 zł',
     'Piec gazowy + ogrzewanie podłogowe',
     'Jasne, przestronne wnętrza',
-    'Rolety zewnętrzne',
-    'Centrum Woli Radziszowskiej',
-    'Termin oddania: wrzesień 2025',
-    'Bliskość PKP'
+    'Instalacja pod klimatyzacje',
+    'Malownicza okolica',
+    'Termin oddania do końca 2025',
+    
   ];
 
   return (
@@ -52,7 +51,7 @@ const Wola = () => {
         variants={dropInVariants}
         custom={0}
       >
-        DOMY W CENTRUM WOLI RADZISZOWSKIEJ
+        DOMY W PASZKÓWCE
       </motion.h1>
 
       <div className="text-center lg:mb-12 space-y-4 lg:text-2xl text-xl text-gray-700 flex items-center flex-col">
@@ -80,25 +79,23 @@ const Wola = () => {
       >
         <motion.div className="p-6 border border-amber-800 rounded-lg shadow-lg transition-transform w-4/5 text-black space-y-6 text-sm lg:text-base">
           <h2 className="text-lg lg:text-xl font-bold text-center">
-            Kameralne osiedle 6 domów w centrum Woli Radziszowskiej
+            Kameralne osiedle domów w Paszkówce
           </h2>
           <section>
             <h3 className="text-md lg:text-lg font-semibold mt-4 mb-2">STANDARD</h3>
             <p>
-              Domy wznoszone w technologii tradycyjnej z pustaka H+H, z dbałością o każdy detal. 
+              Domy wznoszone w technologii tradycyjnej z betonu komórkowego, z dbałością o każdy detal. 
             </p>
             <ul className="list-disc list-inside space-y-1">
-              <li>Powierzchnia użytkowa 85,90 m2 lub 126,80 m2 </li>
-              <li>Układ mniejszego domu dwu-kondygnacyjnego: salon ,kuchnia, 3 sypialnie , łazienka, WC , spiżąrnia, kotłownia i wiatrołap</li>
-              <li>Układ większego domu partrowego: salon połączony z kuchnią, 3 sypialnie , łazienka, WC , garaż, pralnia i wiatrołap</li>
+              <li>Powierzchnia użytkowa 101,52m2  </li>
+              <li>Układ pomieszczeń : salon , kchnia, spiżarnia, 3 sypialnie, łązienka, WC, kotłownia i wiartołap</li>
               <li>Piec gazowy + ogrzewanie podłogowe</li>
-              <li>Rolety</li>
-              <li>Tereny ogrodzony z bramą ba pilota</li>
+              <li>Tereny ogrodzony z bramą i furtką</li>
               <li>Okna PCV trzyszybowe</li>
-              <li>Dachówka płaska Braas</li>
+              <li>Dachówka ceramiczna</li>
               <li>Ogród z ekspozycją południową</li>
               <li>Ocieplenie styropianem 20 cm</li>
-              <li>Tynki Gipsowe</li>
+              <li>Instalacja pod klimatyzację i zmiękczać wody</li>
             </ul>
           </section>
           <section>
@@ -106,27 +103,26 @@ const Wola = () => {
   <p>
     Domy zlokalizowane są w bardzo dobrej lokalizacji, łączącej zalety mieszkania blisko miasta z urokami ciszy i otaczającej zieleni. 
   </p>
+  <p>Przystanek MPK 3,5 km , Przystanek PKP Jaskowice 4 km</p>
   <p>
-    W odległości 100 metrów znajduje się przystanek komunikacji miejskiej, kościół oraz centrum handlowe. 400 metrów dzieli osiedle od szkoły podstawowej i przedszkola, a 650 metrów od stacji szybkiej kolejki aglomeracyjnej.
-  </p>
-  <p>
-    Doskonały dojazd do Skawiny (9 km) oraz Krakowa (25 km do centrum). Na południe Krakowa można również dotrzeć Zakopianką. 
+    Doskonały dojazd do Skawiny (13 km) oraz Krakowa (28 km do centrum). 
   </p>
   <div className="flex justify-center mt-6">
-  <iframe
-src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d731.6055806251518!2d19.783973264158853!3d49.906931355756896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDU0JzI1LjQiTiAxOcKwNDcnMDQuMCJF!5e1!3m2!1spl!2spl!4v1747143530764!5m2!1spl!2spl"     style={{ border: 0 }}
-    allowFullScreen={true}
-    loading="lazy"
-    referrerPolicy="no-referrer-when-downgrade"
-    className="w-full max-w-4xl h-[450px] rounded-xl shadow-lg"
-  ></iframe>
+<iframe
+src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d978.0380145156959!2d19.6821111!3d49.936777799999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDnCsDU2JzEyLjQiTiAxOcKwNDAnNTUuNiJF!5e1!3m2!1spl!2spl!4v1756216905898!5m2!1spl!2spl" 
+  style={{ border: 0 }}
+  allowFullScreen={true}
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+  className="w-full max-w-4xl h-[450px] rounded-xl shadow-lg"
+></iframe>
 </div>
 </section>
 
 
 
 <p>
-  Mieszkania sprzedawane są z podatkiem VAT, dzięki czemu Kupujący zwolniony jest z podatku PCC (2%). Nabycie nieruchomości objęte jest 5-letnią rękojmią. Odbiór budynków: do kwietnia 2025 r.
+  Domy sprzedawane są z podatkiem VAT, dzięki czemu Kupujący zwolniony jest z podatku PCC (2%). Nabycie nieruchomości objęte jest 5-letnią rękojmią. Odbiór budynków: do końca 2025 r.
 </p>
 <p className="font-semibold mt-4 text-center">Zapraszamy do kontaktu celem uzyskania większej ilości szczegółów!</p>
 
@@ -167,8 +163,7 @@ src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d731.6055806251518!2d1
   <div className="flex flex-wrap justify-center items-center w-full">
     {[
       { name: 'parterowy rzut', file: 'parterowy.pdf' },
-   { name: 'maly_parter rzut', file: 'maly_parter.pdf' },
-   { name: 'maly_pietro rzut', file: 'maly_pietro.pdf' },
+
    
       
     ].map(({ name, file }) => (
@@ -190,5 +185,5 @@ src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d731.6055806251518!2d1
   );
 };
 
-export default Wola;
+export default Paszkowka;
 

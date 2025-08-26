@@ -115,7 +115,7 @@ const Offers = () => {
 </div>
 </Link >
 
-<Link href="/wola">
+<Link href="/paszkowka">
 <div className="relative w-[350px] h-[300px] m-4 overflow-hidden rounded-xl shadow-lg hover:scale-105 transition  duration-700 ease-in-out cursor-pointer">
   <Image 
     src={photo6} 
@@ -130,10 +130,9 @@ const Offers = () => {
 
   
   <div className="absolute inset-0 z-20 flex flex-col justify-between p-4 text-white">
-    <h3 className="text-xl font-bold text-center ">Domy w centrum Woli Radziszowskiej</h3>
+    <h3 className="text-xl font-bold text-center ">Domy w Paszkówce</h3>
     <p className="text-sm text-center">
-     Nowoczesne domy w dwóch projektach do wyboru w doskonałej lokalizacji. Możesz wybrać stan deweloperski
-     lub wykończenie pod klucz
+     Nowoczesne domy paretowe w malowniczej lokalizacji.
     </p>
   </div>
 </div>

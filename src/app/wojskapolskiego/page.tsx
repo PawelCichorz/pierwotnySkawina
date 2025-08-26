@@ -42,12 +42,12 @@ const WojskaPolskiego = () => {
 
   const events = [
     'Pow. użytkowa 106,35m2',
-    'Ceny od 1 059 000 zł brutto',
+    'Ceny od 1 099 000 zł brutto',
     'Format Premium',
     'Pompa Ciepła',
     '3 miejsca postojowe',
     'Duże ogródki z ekspozycją południową',
-    'Termin oddania sierpień 2025r.'
+    'Termin oddania 1 etapu wrzesień 2025r.'
   ];
 
   return (
