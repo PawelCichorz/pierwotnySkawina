@@ -7,6 +7,7 @@ import photo3 from '../../../assets/2.jpg'
 import photo4 from '../../../assets/1.jpg'
 import photo5 from '../../../assets/22.jpg'
 import photo6 from '../../../assets/11.jpg'
+import photo7 from '../../../assets/3.jpg'
 import { motion } from 'framer-motion';
 
 
@@ -133,6 +134,28 @@ const Offers = () => {
     <h3 className="text-xl font-bold text-center ">Domy w Paszkówce</h3>
     <p className="text-sm text-center">
      Nowoczesne domy paretowe w malowniczej lokalizacji.
+    </p>
+  </div>
+</div>
+</Link>
+<Link href="/beczyn">
+<div className="relative w-[350px] h-[300px] m-4 overflow-hidden rounded-xl shadow-lg hover:scale-105 transition  duration-700 ease-in-out cursor-pointer">
+  <Image 
+    src={photo7} 
+    alt="logo" 
+    fill 
+    priority 
+    className="object-cover"
+  />
+
+ 
+  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent z-10" />
+
+  
+  <div className="absolute inset-0 z-20 flex flex-col justify-between p-4 text-white">
+    <h3 className="text-xl font-bold text-center ">Domy W Bęczynie</h3>
+    <p className="text-sm text-center">
+      Domy dla osób ceniących przestrzeń i wygodę.
     </p>
   </div>
 </div>
