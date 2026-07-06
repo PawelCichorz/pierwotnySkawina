@@ -2,7 +2,6 @@
 import Image from "next/image";
 import Link from 'next/link';
 import photo from '../../../assets/cam2AL.jpg'
-import photo2 from '../../../assets/14.jpg'
 import photo3 from '../../../assets/2.jpg'
 import photo4 from '../../../assets/1.jpg'
 import photo5 from '../../../assets/22.jpg'
@@ -35,27 +34,7 @@ const Offers = () => {
   <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent z-10" />
 
   
-  <div className="absolute inset-0 z-20 flex flex-col justify-between p-4 text-white">
-    <h3 className="text-xl font-bold text-center ">Energooszczędne Domy Jurczyce</h3>
-    <p className="text-sm text-center">
-   Energooszczędne domy w Jurczycach to osiedle parterowych domków z pompą ciepła, fotowoltaiką i rekuperacją w pięknej okolicy.
 
-    </p>
-  </div>
-</div>
-</Link>
-<Link href="/wojskapolskiego">
-<div className="relative w-[350px] h-[300px] m-4 overflow-hidden rounded-xl shadow-lg hover:scale-105 transition  duration-700 ease-in-out cursor-pointer">
-  <Image 
-    src={photo2} 
-    alt="logo" 
-    fill 
-    priority 
-    className="object-cover"
-  />
-
- 
-  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent z-10" />
 
   
   <div className="absolute inset-0 z-20 flex flex-col justify-between p-4 text-white">
